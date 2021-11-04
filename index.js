@@ -24,13 +24,13 @@ const { fetchISSFlyOverTimes } = require('./iss');
 //   }
 // });
 
-fetchISSFlyOverTimes({ latitude: 43.6911, longitude: -79.3353 }, (error, data) =>{
-  if (error) {
-    console.log("It didn't work!", error);
+// fetchISSFlyOverTimes({ latitude: 43.6911, longitude: -79.3353 }, (error, data) =>{
+//   if (error) {
+//     console.log("It didn't work!", error);
 
-  } else {
+//   } else {
 
 
-    console.log("It worked! Returned coordinates: ", data);
-  }
-});
+//     console.log("It worked! Returned coordinates: ", data);
+//   }
+// });
